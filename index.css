@@ -11,7 +11,7 @@
 body{
     margin: 0;
     padding: 0;
-    color:#f5f8ff;
+    color:aliceblue;
 }
 .btn{
     background-color: #4e47ff;
@@ -128,7 +128,7 @@ nav button {
   align-items: center;
   gap: 158px;
 }
-.title {
+.jtitle {
   color: #4e47ff;
   font-size: 80px;
   font-weight: 700;
@@ -142,5 +142,98 @@ nav button {
   margin: 0;
   padding: 0;
 }
+.focus{
+    max-width: 1140px;
+  height: 696.77px;
+  background-color: white;
+  border-radius: 14px;
+  margin: 0 auto;
+  padding: 71px 150px;
+  text-align: center;
+}
+.f-title{
+color: black;
+font-size: 50px;
+font-weight: 700;
+margin: 0;
+}
+.f-description{
+    font-size: 16;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+}
+.f-btn{
+     width: 195px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
 
+}
+.fpic{
+     width: 840px;
+  align-items: center;
+  margin: 0 auto;
+}
+.fpic img {
+  border-radius: 48px;
+}
+.touch{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  gap: 115px;
+  height: 632px;
+}
+.ttitle{
+     color: black;
+  font-size: 97px;
+  font-weight: 700;
+  width: 528px;
 
+}
+label{
+    display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+}
+input{
+    width: 465px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 32px;
+  font-size: 1.2rem;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+textarea {
+  width: 465px;
+  height: 135px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 32px;
+  padding-top: 19px;
+  font-size: 1.2rem;
+}
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.form-btn {
+  width: 497px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 19px;
+}
