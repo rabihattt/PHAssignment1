@@ -69,3 +69,34 @@ nav button {
   width: 174px;
   height: 48px;
 }
+.action{
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 116px auto;
+  gap: 220px;
+}
+.container {
+  width: 517px;
+  height: 203px;
+}
+.title{
+   
+  color: black;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 0;
+
+}
+.subtitle{
+     margin: 23px 0;
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  width: 517px;
+}
+.webflow{
+      border-radius: 48px;
+  width: 403px;
+}
